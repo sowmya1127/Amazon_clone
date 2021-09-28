@@ -1,0 +1,27 @@
+.Fashion_main{
+    display: flex;
+    flex-direction: column;
+}
+.Fashion{
+    max-width: 1200px;
+    width:100%;
+    margin: 20px auto; 
+}
+.Fashion_stage1,
+.Fashion_stage2{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+@media(max-width:768px){
+    .Fashion_stage1,
+    .Fashion_stage2{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+
+
+
+}
+

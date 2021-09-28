@@ -1,0 +1,27 @@
+.Lights_main{
+    display: flex;
+    flex-direction: column;
+}
+.Lights{
+    max-width: 1200px;
+    width:100%;
+    margin: 20px auto; 
+}
+.Lights_stage1,
+.Lights_stage2{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+@media(max-width:768px){
+    .Lights_stage1,
+    .Lights_stage2{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+
+
+
+}
+

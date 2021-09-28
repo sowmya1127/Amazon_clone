@@ -1,0 +1,26 @@
+.Decor_main{
+    display: flex;
+    flex-direction: column;
+}
+.Decor{
+    max-width: 1200px;
+    width:100%;
+    margin: 20px auto; 
+}
+.Decor_stage1,
+.Decor_stage2{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+@media(max-width:768px){
+    .Decor_stage1,
+    .Decor_stage2{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+
+
+
+}

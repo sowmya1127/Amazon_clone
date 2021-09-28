@@ -1,0 +1,13 @@
+.order__header{
+    text-align: center;
+    background-color: burlywood;
+}
+
+.order__header1{
+    margin-top: 10px;
+    margin-bottom: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}

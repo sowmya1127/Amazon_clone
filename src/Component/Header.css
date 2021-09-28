@@ -1,0 +1,143 @@
+.header{
+    background-color: #141E30;
+    color: white;
+    /* height:60px; */
+    
+}
+.header__row{
+    display: flex;
+    }
+
+.header__logo{
+    width:100px;
+    margin:10px;
+    margin-top:18px;
+}
+.header__col1{
+    display: flex;
+}
+.header__adress{
+    display:flex;
+    flex-direction: column; 
+    margin:10px;
+    margin-left: 5px;
+    color: #fff;
+    
+}
+.header__LoacationIcon{
+    display: flex;
+    align-items: baseline;
+    margin-top: 25px;
+}
+.header__col2{
+    display: flex;
+    
+
+}
+.header__search{
+     
+    width: 800px;
+    margin-top:5px;
+    display: flex;
+    /* flex:1; */
+    align-items: center;
+
+}
+
+.header__search > input{
+    height: 35px;;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    
+}
+.header__SearchIcon{
+    padding: 5px;
+    height: 35px !important;
+    width: 40px;
+    background-color: #cd9842;
+    margin-top: 18px;
+    align-items: center;
+    
+    
+
+}
+.header__col3{
+    display: flex;
+    
+}
+.header__flag{
+    width: 25px;
+    margin:25px;
+    align-items: center;
+    
+}
+.header__accounts{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-left: 10px;
+    align-items: center;
+    color: #fff;
+}
+.header__orders{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-left: 10px;
+    align-items: center;
+    color: #fff;
+}
+.header__cart{
+    width: 50px;
+    margin:10px;
+    margin-left: 10px;
+    align-items: center;
+    color: #fff;
+}
+.header__texttop{
+    font-size: small;
+}
+.header__textbottom{
+    font-size: large;
+    font-style: inherit;
+}
+.header__CartIcon{
+    align-items: center;
+}
+.container{
+    margin-bottom: 200px;
+    margin-top: 200px;
+    text-align: center;
+    }
+ .modal-title{
+    
+    background-color: grey;
+    width:500px;
+    text-align: center;
+    
+    
+}
+.modal-text{
+    color: black;
+}
+.text-color{
+    background-color: rgb(235, 188, 60);
+    width: 400px;
+    color: black;
+}
+@media(max-width:768px){
+    .header__row{flex-direction: column;}
+    .header__search{width: 400px;}
+    .header__search > input{
+        width: 320px;
+        margin-left: 30px;
+    }
+    .header__SearchIcon{
+        margin-left: -50px;
+        margin-top: 5px;
+    }
+    
+    
+}
+

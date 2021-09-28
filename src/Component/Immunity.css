@@ -1,0 +1,26 @@
+.immunity_main{
+    display: flex;
+    flex-direction: column;
+}
+.immunity{
+    max-width: 1200px;
+    width:100%;
+    margin: 20px auto; 
+}
+.immunity_stage1,
+.immunity_stage2{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+@media(max-width:768px){
+    .immunity_stage1,
+    .immunity_stage2{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+
+
+
+}

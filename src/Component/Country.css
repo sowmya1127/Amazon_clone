@@ -1,0 +1,13 @@
+.country__header{
+    text-align: center;
+    background-color: burlywood;
+}
+
+.country__header1{
+    margin-top: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}

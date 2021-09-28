@@ -1,0 +1,29 @@
+.cleaning_main{
+    display: flex;
+    flex-direction: column;
+    
+}
+.cleaning_stage1,
+.cleaning_stage2
+{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.cleaning{
+    max-width: 1200px;
+    width: 100%;
+    margin:20px auto;
+}
+@media(max-width:768px){
+    .cleaning_stage1,
+    .cleaning_stage2{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+
+
+
+}
+
